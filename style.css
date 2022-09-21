@@ -11,3 +11,57 @@
 html {
   font-size: 62.5%;
 }
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menu {
+  display: none;
+}
+
+.logo {
+  height: 6rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  color: #fff;
+  width: 15rem;
+  margin: 0 3rem;
+  text-transform: uppercase;
+  border: 0.1rem solid #fff;
+  text-align: center;
+  padding: 0.2rem 0;
+  letter-spacing: 0.1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 5rem;
+  background-color: #d50000;
+  left: -20%;
+  transform: rotate(-40deg) translateX(-4rem);
+  transform-origin: left bottom;
+  opacity: 0.8;
+  transition: left 0.3s;
+}
+
+.nav-link:hover::before {
+  left: 110%;
+}

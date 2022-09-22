@@ -80,7 +80,7 @@ section {
   left: 0;
 }
 
-.section-4 {
+.section-5 {
   z-index: 50;
 }
 
@@ -220,4 +220,46 @@ section {
   border: 0.1rem solid #fff;
   padding: 1rem;
   opacity: 0.7;
+}
+
+.section-5 {
+  z-index: 10;
+}
+
+.section-5-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
+    url(images/section-5-bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-list li {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #ddd;
+  margin: 1rem 0;
+}
+
+.footer-list li:first-child {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-img {
+  width: 60rem;
+  margin: 0 20rem;
+  opacity: 0.9;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #eee;
+  letter-spacing: 0.2rem;
 }

@@ -80,7 +80,7 @@ section {
   left: 0;
 }
 
-.section-3 {
+.section-4 {
   z-index: 50;
 }
 
@@ -185,5 +185,39 @@ section {
 .grapes-img {
   width: 40rem;
   position: absolute;
+  opacity: 0.7;
+}
+
+.section-4-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-4-bg {
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url(images/section-4-bg.jpg) center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(0.5rem);
+}
+
+.section-4-heading {
+  font-size: 10rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 7rem;
+  color: #d50000;
+  user-select: none;
+}
+
+.new-wines-img {
+  width: 70rem;
+  border: 0.1rem solid #fff;
+  padding: 1rem;
   opacity: 0.7;
 }

@@ -80,7 +80,7 @@ section {
   left: 0;
 }
 
-.section-2 {
+.section-3 {
   z-index: 50;
 }
 
@@ -155,4 +155,35 @@ section {
 .wine-bottle {
   opacity: 0.6;
   width: 80rem;
+}
+
+.section-3-wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url(images/section-3-bg.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-3-heading {
+  font-size: 20rem;
+  color: #ccc;
+  text-transform: uppercase;
+  transform: rotate(20deg);
+  text-align: center;
+  text-shadow: 0 0.5rem 1.5rem #000;
+  user-select: none;
+}
+
+.frame-img {
+  width: 100rem;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.grapes-img {
+  width: 40rem;
+  position: absolute;
+  opacity: 0.7;
 }
